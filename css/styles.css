@@ -15,7 +15,7 @@ body {
  
  /* Main content */
  .Main-content {
-    
+    background-color: #00000014;
      padding-top: 88px;
      padding-left: 88px;
      padding-bottom: 88px;
@@ -37,6 +37,7 @@ body {
     font-size: 20px;
  }
  .date{
+    display: flex;
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -94,14 +95,14 @@ body {
  }
  /* Projects */
  
- .main-content-title {
+ /* .main-content-title {
      font-style: normal;
      font-weight: 700;
      font-size: 22px;
      line-height: 27px;
      color: #000000;  
     
- }
+ } */
  .project-item {
      font-style: normal;
      font-weight: 500;
@@ -204,3 +205,63 @@ margin-bottom: 15px;
      line-height: 24px;
      color: #161D2A ;   
  }
+ .i-lifes,.i-life{
+    display: flex;
+ }
+ .i-lifes{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 5px;
+ }
+  /* new still*/
+  .content-title{
+    display: flex;
+    justify-content: center;
+    font-style: normal;
+     font-weight: 700;
+     font-size: 22px;
+     line-height: 27px;
+     color: #000000; 
+  }
+  .ddd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .name-work{
+    font-style: normal;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 22px;
+     color: #000000; 
+     margin: 5px 0 0 0;
+  }
+  .content-education{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    
+  }
+  .content-educations{
+    font-style: normal;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 18px;
+     color: #000000; 
+    margin: 5px 0 15px 0;
+    
+  }
+  .date-work{
+    font-style: normal;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 18px;
+     color: #000000; 
+    margin: 5px 0 15px 0;
+  }
